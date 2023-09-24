@@ -30,6 +30,11 @@ namespace InkArvPol
                   That depends. is it about the recently created classes or any class? if It's the first one,
                   Animal. If it's the second one, Object.
 
+              13. Förklara vad det är som händer
+        
+                  Every subclas calls the base class Stats method first to get all of the inherited properties as string and
+                  append the new properties, if any, to the end of the string.
+
               16. Kommer du åt den metoden från Animals listan? Varför inte?
                   
                   No. In no place inside Animal was declared that an animal could do such a thing.
